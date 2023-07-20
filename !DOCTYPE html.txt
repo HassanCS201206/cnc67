@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .profile-image {
+            display: block;
+            margin: 20px auto;
+            border-radius: 50%;
+            border: 5px solid #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+        p {
+            margin: 5px 0;
+        }
+        ul {
+            margin: 5px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Muhammad Hassan Nasir</h1>
+        <p>Email: hassanez@example.com | Phone: (123) 456-7890 | Website: www.yourwebsite.com</p>
+    </header>
+    <div class="container">
+        <img class="profile-image" src="https://cnc20206.s3.eu-north-1.amazonaws.com/Myimage.jpg" alt="Your Name's Profile Picture" width="150" height="150">
+        <div>
+            <h2>Summary</h2>
+            <p>
+                Write a brief summary of yourself, including your skills, experiences, and career goals.
+            </p>
+        </div>
+        <div>
+            <h2>Education</h2>
+            <p>
+                <strong>University Name Dha Suffa</strong><br>
+                Degree: Bachelor of Science in Computer Science<br>
+                Graduation Year: 2024
+            </p>
+            <!-- Add more education details as necessary -->
+        </div>
+        <div>
+            <h2>Work Experience</h2>
+            <p>
+                <strong>Project manager</strong> at <strong>Digitaez</strong><br>
+                Dates: Start Date - End Date<br>
+                Description: Briefly describe your responsibilities and achievements in this role.
+            </p>
+            <!-- Add more work experiences as necessary -->
+        </div>
+        <div>
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: HTML, CSS, JavaScript, etc.</li>
+                <li>Software: Microsoft Office, Photoshop, etc.</li>
+                <li>Other skills: Teamwork, Communication, Problem-solving, etc.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
